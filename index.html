@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV FINAL</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+      window.onload=function()
+      {
+        var elemento=document.getElementById("foto");
+        elemento.onmouseover = function(e) {
+   
+          
+   
+          document.getElementById("ratonenlafoto").innerHTML="EL MEJOR JUGADOR DEL MUNDO"; 
+                };
+        elemento.onmouseout = function(e) {
+   
+        
+   
+          document.getElementById("ratonenlafoto").innerHTML="";
+        };
+      }
+      </script>
+</head>
+<body>
+    <h1>CV</h1>
+    <H2>Lionel Andrés Messi</H2>
+    <div style="text-align: center;"> 
+    <img id="foto" src="https://img.a.transfermarkt.technology/portrait/big/28003-1671435885.jpg?lm=1"
+     alt="foto de messi"     
+     width="132"
+     height="190"
+       >
+       
+
+<div id="ratonenlafoto">
+el raton 
+</div>
+    
+    <div > 
+     <ul style="text-align: left;" > 
+        <li>DATOS PERSONALES</li>
+        <li>Rosarino</li>
+        <li>35 años</li>
+        <li>Futbolista</li>        
+      </ul> 
+    </div> 
+    <p>EXPERIENCIA LABORAL</p>
+    <table style="margin: 0 auto;">
+        
+        <tr>
+          <th>Equipo</th>
+          <th>País</th>
+          <th>Año</th>
+        </tr>
+        <tr>
+          <td>Newells</td>
+          <td>Argentina</td>
+          <td>1994-1999</td>
+        </tr>
+        <tr>
+          <td>Barcelona</td>
+          <td>España</td>
+          <td>2000-2021</td>
+        </tr>  <tr>
+            <td>PSG</td>
+            <td>Francia</td>
+            <td>2021-Actualidad</td>
+          </tr>
+      </table> 
+</div>
+</div> 
+<p>HABILIDADES</p>
+<table style="margin: 0 auto;">
+    
+    <tr>
+      <th>IDIOMA</th>
+      <th>Rosarino</th>
+        </tr>
+    <tr>
+      <td>PC</td>
+      <td>Curso de Front-end en Ticmas</td>
+  
+  
+      </tr>
+  </table> 
+</div>
+
+
+     
+</body>
+</html>
